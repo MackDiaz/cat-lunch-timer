@@ -78,3 +78,33 @@ button {
     color: #d9534f;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    #container {
+        transform: scale(1.2);
+        padding: 15px 20px;
+    }
+
+    #countdownDisplay {
+        font-size: 1.8em;
+    }
+
+    #message {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 480px) {
+    #container {
+        transform: scale(1);
+        padding: 10px 15px;
+    }
+
+    #countdownDisplay {
+        font-size: 1.5em;
+    }
+
+    #message {
+        font-size: 1.1em;
+    }
+}
